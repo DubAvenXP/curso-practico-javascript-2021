@@ -1,0 +1,71 @@
+Serie 1
+.
+¿Qué es una variable y para qué sirve?
+Una variable es un espacio en memoria y sirve para manipular y reutilizar determinados datos de un programa
+.
+¿Cuál es la diferencia entre declarar e inicializar una variable?
+Cuando se declara una variable se le asigna un espacio en memoria a esta y cuando se inicializa se le da un valor concreto a esa variable
+.
+¿Cuál es la diferencia entre sumar números y concatenar strings?
+En javascript el tipado es dinamico, esto quiere decir que javascript detecta de que tipo son los datos que esta operando.
+Una de las formas para concatenar en javascript es por medio del operador + (existen mas formas de concatenar) y para sumar tambien.
+En pocas palabras la diferencia radica en el tipo de dato que se esta operando (Number, float o String) Para que una suma sea valida
+se deben operar numeros con numeros
+.
+¿Cuál operador me permite sumar o concatenar?
+El operador +
+.
+Serie 2
+.
+nombre_variable: nombre, tipo: String
+nombre_variable: apellido, tipo: String
+nombre_variable: usuarioPlatzi, tipo: String
+nombre_variable: edad, tipo: Number
+nombre_variable: correo, tipo: String
+nombre_variable: esMayorDeEdad, tipo: Boolean
+nombre_variable: dineroAhorrado, tipo: Number
+nombre_variable: deudas, tipo: Number
+.
+Serie 3
+.
+```
+const nombre = 'Pepe',
+    apellido = 'Perez',
+    usuarioPlatzi = 'pepePerez1',
+    edad = 21,
+    correo = 'pepeperez@mail.com',
+    esMayorDeEdad = true,
+    dineroAhorrado = 1005.59,
+    deudas = 555.55;
+
+const nombreCompleto = nombre + ' ' + apellido;
+const dineroReal = dineroAhorrado - deudas;
+
+console.log('\n: ' + nombreCompleto + '\nDinero Real: ' + dineroReal);
+```
+.
+Serie 4
+.
+¿Qué es una función?
+Una funcion es un bloque de codigo reutilizable que realiza determinada tarea en especifico 
+a estas tambien se les asigna un espacio en memoria
+.
+¿Cuándo me sirve usar una función en mi código?
+Por ejemplo si se quiere realizar un programa que conduzca un carro, lo podemos dividir en funciones.
+encenderCarro, cambiarVelocidad, moverCarro, apagarCarro... 
+.
+¿Cuál es la diferencia entre parámetros y argumentos de una función?
+Un argumento es el valor que se le pasa a un parametro
+.
+Serie 5
+.
+¿Qué es una condicional?
+Un codicional ejecuta si determinada variable o comparacion 
+¿Qué tipos de condicionales existen en JavaScript y cuáles son sus diferencias?
+¿Puedo combinar funciones y condicionales?
+
+
+
+
+https://material.io/
+replicar paginas
