@@ -68,8 +68,10 @@ const main = () => {
     binarySearchTree.insert(8);
     binarySearchTree.insert(17);
     binarySearchTree.insert(170);
-    console.log(JSON.stringify(binarySearchTree.search(22)));
-    //console.log(JSON.stringify(binarySearchTree));    
+    // console.log(binarySearchTree.search(21));
+    console.log(JSON.stringify(binarySearchTree));    
+    console.log();
+    console.log(JSON.stringify(binarySearchTree.delete(8)));    
 
 }
 

@@ -4,6 +4,8 @@ const SinglyLinkedList = require('./SinglyLinkedList');
 const DoublyLinkedList = require('./DoublyLinkedList');
 const Stack = require('./Stack');
 const Queue = require('./Queue');
+const Tree = require('./Tree');
+const Graph = require('./Graph');
 
 
 
@@ -14,4 +16,8 @@ module.exports = {
     DoublyLinkedList,
     Stack,
     Queue,
+    Tree,
+    Graph,
 }
+
+
